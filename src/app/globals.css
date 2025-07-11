@@ -117,3 +117,11 @@ body {
   background: linear-gradient(45deg, #4b5563, #1f2937);
   box-shadow: 0 6px 12px rgba(107, 114, 128, 0.4);
 }
+
+@keyframes blink-red {
+  0%, 100% { background-color: #fee2e2; }
+  50% { background-color: #f87171; }
+}
+.animate-blink-red {
+  animation: blink-red 1s infinite;
+}
